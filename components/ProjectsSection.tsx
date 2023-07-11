@@ -6,28 +6,28 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Online Project Sharing Platform",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Student Tribe is a web app that enables user to showcase a gist of their projects and connect to talent across world.",
+    image: "/Studentps.png",
+    github: "/",
+    link: "https://studenttribe.netlify.app/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Catalyst",
+    description: "Catalyst is a personality predictor app built using React and flask.",
+    image: "/catalyst.png",
+    github: "/",
+    link: "https://mystashwiz.netlify.app",
   },
-  {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
-  },
+//   {
+//     name: "Kator Family Photos",
+//     description:
+//       "Kator Family Photos is a photos and video digitization service in the LA area.",
+//     image: "/familyphotos.png",
+//     github: "https://github.com/hqasmei/katorfamilyphotos",
+//     link: "https://katorfamilyphotos.com/",
+//   },
 ]
 
 const ProjectsSection = () => {
@@ -35,7 +35,7 @@ const ProjectsSection = () => {
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
         Projects
-        <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+        <hr className="w-6 h-1 mx-auto my-4 bg-indigo-500 border-0 rounded"></hr>
       </h1>
 
       <div className="flex flex-col space-y-28">

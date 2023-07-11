@@ -5,13 +5,14 @@ const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
-  { skill: "TypeScript" },
+  { skill: "R" },
   { skill: "Python" },
   { skill: "React" },
+  { skill: "Java" },
+  { skill: "SQL" },
   { skill: "Next.js" },
+  { skill: "Flask" },
   { skill: "Tailwind CSS" },
-  { skill: "Git" },
-  { skill: "GitHub" },
   { skill: "Jupyter Notebooks" },
 ]
 
@@ -21,7 +22,7 @@ const AboutSection = () => {
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me
-          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+          <hr className="w-6 h-1 mx-auto my-4 bg-indigo-500 border-0 rounded"></hr>
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
@@ -30,35 +31,31 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Vijayendher Gatla and I am from {" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              Hyderabad,India.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I'm currently pursuing my sophomore year at Chaitanya Bharathi Institute Of Technology, Hyderabad 
+              with a BE in Artificial Intelligence and Data Science.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              I have a whole lot a list of hobbies.
+              From reading, wrtiting , coding , to making YouTube content , Music Production and Video Editing ,
+              I am always seeking new challenges and love to collaborate with people in technology.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
+            Because I am passionate about technology and want to constantly push the boundaries of what is possible, I feel that you should{" "}
+              <span className="font-bold text-indigo-500">
                 never stop growing
               </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              I'm eager to follow my career wherever it may lead, and I'm always interested in new prospects. 
+              🙂
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -76,10 +73,11 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/hero-image.png"
+              src="/hero-boy.png"
               alt=""
               width={325}
               height={325}
+              style={{padding:10,margin:30}}
               className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
             />
           </div>
