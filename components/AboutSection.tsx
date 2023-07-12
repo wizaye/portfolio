@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "next/image"
+import {AiOutlineFileDone} from 'react-icons/ai'
 
 const skills = [
   { skill: "HTML" },
@@ -31,15 +32,14 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Vijayendher Gatla and I am from {" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              Hyderabad,India.
+              Hi, my name is Vijayendher Gatla and I am  a{" "}
+              <span className="font-bold text-indigo-500">{" motivated"}</span> and
+              <span className="font-bold text-indigo-500">{" enthusiastic"}</span> software engineering undergraduate
+              based in Hyderabad,India.
             </p>
             <br />
             <p>
-              I'm currently pursuing my sophomore year at Chaitanya Bharathi Institute Of Technology, Hyderabad 
+              I&#x27;m currently pursuing my sophomore year at Chaitanya Bharathi Institute Of Technology, Hyderabad 
               with a BE in Artificial Intelligence and Data Science.
             </p>
             <br />
@@ -54,9 +54,18 @@ const AboutSection = () => {
               <span className="font-bold text-indigo-500">
                 never stop growing
               </span>{" "}
-              I'm eager to follow my career wherever it may lead, and I'm always interested in new prospects. 
+              I&#x27;m eager to follow my career wherever it may lead, and I&#x27;m always interested in new prospects. 
               🙂
             </p>
+            <br />
+            <div className="display-row items-center">
+              {/* <AiOutlineFileDone className="mr-2" style={{ verticalAlign: 'middle' }} /> */}
+              <a href="https://drive.google.com/file/d/10cAG0a2hp5nYgYozXGoMf4Y3Xp2KP5np/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-indigo-500 font-bold inline-block align-middle">Click here to check out my resume</a>
+            </div>
+
+
+
+           
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
