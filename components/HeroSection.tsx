@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="font-semibold text-indigo-600">
               Undergraduate Student{" "}
             </span>
-            from <br/>📍Hyderabad, India.<br/> Working towards creating a career in the software industry and open source contributions.
+            from<br/>📍Hyderabad, India.<br/> Working towards creating a career in the software industry and open source contributions.
           </p>
           <Link
             to="projects"
