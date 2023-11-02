@@ -39,13 +39,13 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I&#x27;m currently pursuing my sophomore year at Chaitanya Bharathi Institute Of Technology, Hyderabad 
+              I&#x27;m currently pursuing my third year at Chaitanya Bharathi Institute Of Technology, Hyderabad 
               with a BE in Artificial Intelligence and Data Science.
             </p>
             <br />
             <p>
               I have a whole lot a list of hobbies.
-              From reading, wrtiting , coding , to making YouTube content , Music Production and Video Editing ,
+              From reading, writing , coding , to making YouTube content , Music Production and Video Editing ,
               I am always seeking new challenges and love to collaborate with people in technology.
             </p>
             <br />
